@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+/************* Header Navigation start *********/
+#header-nav {
+  background-color: #d7d6d7;
+}
+
+#menu-chicken {
+  background-color: #ff8c38;
+  font-size: 125%;
+  color: red;
+}
+
+#menu-beef {
+  background-color: #913232;
+  font-size: 125%;
+}
+
+#menu-sushi {
+  background-color: #369818;
+  font-size: 125%;
+  font-family: Helvetica;
+}
+
+
+
+/************* Header Navigation end *********/
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 125%;
+    width: 150px;
+    text-align: center;
+    margin-top: -13px;
+    margin-bottom: 0;
+    position: absolute;
+    right: -1px;
+    top: 12px;
+    color: #fff;
+}
+
+#section {
+  border: 3px solid black;
+  background-color: #ebebeb;
+  height: 1000px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-family: Helvetica;
+  padding: 10px;
+  padding-top: 35px;
+  position: relative;
+}
+
+
+.chicken {
+      background-color: #ff8c38;
+}
+
+.beef {
+    background-color: #913232;
+    position: absolute;
+}
+
+.sushi {
+    background-color: #369818;
+    position: absolute;
+}
+
+#title {
+	width: 20%;
+	height: 20px;
+	background-color: #99a8a0;
+	position: absolute;
+}
+
+
+.row {
+  width: 100%;
+}
+
+/************* Responsive framework *************/
+.row {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    
+}
+
