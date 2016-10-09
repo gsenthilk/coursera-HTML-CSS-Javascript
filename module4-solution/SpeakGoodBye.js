@@ -30,7 +30,6 @@
 	var byeSpeaker = {};
 
 	byeSpeaker.speak = function(name) {
-	  // console.log(byeSpeaker.speakWord + " " + name);
 	  console.log(speakWord + " " + name);
 	}
 
